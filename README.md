@@ -40,7 +40,6 @@ Verify installation by running hello-world image
 sudo docker run hello-world
 ```
 
-
 ### Other Docker commands
 
 Check status of running containers
@@ -179,3 +178,9 @@ Quick Commands
 -   Show modified files - `docker diff CONTAINER`
 -   Show mapped ports - `docker port CONTAINER`
 
+---
+
+## Commands used by others / random stuff
+```bash
+podman run -it --hostname twitch.tv --name ws ws-image
+```
